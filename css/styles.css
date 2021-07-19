@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Sacramento;
+    src: url(Fonts/Sacramento/Sacramento.ttf) format("truetype");
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(Fonts/Montserrat/Montserrat.ttf) format("truetype");
+}
+
+/* Use padding when you don't want to affect the flow of your document, that is you want the element to still be in a particular location without affecting thee positioning */
+
+body{
+    margin:0;
+    text-align: center;
+    color:#40514E;
+    font-family:Montserrat;
+}
+
+h1{
+    color:#754F5B;
+    font-size: 90px;
+    margin:50px auto 0;
+    font-family: Sacramento;
+    line-height: 2;
+ 
+}
+
+h2{
+    color:#754F5B;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding:10px;
+}
+
+h3{
+    color:#754F5B;
+}
+
+hr{
+    border-style:dotted;
+    /* setting the border-top produces the same effects as setting the border-bottom to none; you can only use one of them as using both causes the hr to be invisble */
+    border-top:2px;
+    border-width:6px;
+    width:2.5%;
+    color:#EAF6F6;
+    margin:100px auto;
+}
+
+a{
+    color:#7D6167;
+    text-decoration: none;
+}
+
+p{
+    line-height: 2;
+}
+
+.top-container{
+    background-color:#E6DBD0;
+    position: relative;
+    padding-top:100px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left:300px;
+    bottom:300px;
+}
+
+.top-cloud{
+    position:absolute;
+    right:300px;
+    top:50px;
+}
+
+.skill-row{
+    width:50%;
+    margin:100px auto;
+    text-align: left;
+}
+
+.profile-img{
+    height:150px;
+    width:150px;
+    border-radius: 100%;
+    border:2px solid #754F5B;
+}
+
+.slide-img{
+    height:150px;
+    width:25%;
+    border-radius: 100%;
+    float:left;
+    margin-right:30px;
+}
+
+.article-img{
+    height:150px;
+    float:right;
+    margin-left: 30px;
+    width:25%;
+    border-radius: 50%;
+}
+
+.middle-container{
+    margin:100px auto;
+}
+.intro{
+    width:30%;
+    margin:0 auto;
+}
+
+.contact-me{
+    line-height: 2;
+    margin:100px auto;
+}
+
+.contact-message{
+     width:50%;
+     margin:40px auto 60px;
+}
+/* setting a top and bottom margin on a inline element (a, span) as no effect because it will disrupt the flow of the document but to affect the vertical height of an inline element use the line-height property. Like wise margin won't have any effects on the left and right of a block element except a width is set. */
+.btn{
+    background-image: linear-gradient(#754F5B, #754F);
+    color:white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 18px #40514E;
+}
+
+.btn:hover{
+    background-image: linear-gradient(#7D6167, #8f7475);
+}
+
+.bottom-container{
+    background-color:#5D4954;
+    padding:50px 0 20px;
+}
+
+.footer-link{
+    font-weight: 600;
+    margin: 0 20px;
+}
+
+.footer-link:hover{
+    color:#EAF6F6;
+}
+
+.copyright{
+    color:#EAF6F6;
+    font-size: smaller;
+    padding-top: 20px;
+}
